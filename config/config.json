@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "Qwe@1245",
+    "database": "rest_api_db",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "Qwe@1245",
+    "database": "database_test",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "Qwe@1245",
+    "database": "database_production",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}
