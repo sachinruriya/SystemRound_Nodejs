@@ -14,5 +14,5 @@ export const broadcastMessage = (req: Request, res: Response): void => {
    
   io.to(room).emit("roomMessage", { room, message });
 
-  res.status(200).json({ success: true, message: `Broadcasted to room: ${room} ${req}` });
+  res.status(200).json({ success: true, message: `Broadcasted to room: ${room} with ${message}` });
 };
